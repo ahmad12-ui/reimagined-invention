@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    /* background:linear-gradient( rgb(78, 233, 199) , rgb(235, 94, 223)) ; */
+    background:linear-gradient( rgba(143, 230, 211, 0.452) ,rgb(241, 47, 199), rgb(236, 139, 228)) ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    width: 90%;
+    max-width: 600px;
+    margin:  auto  ;
+    border-radius: 50px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.849);
+    z-index: 200;
+    box-shadow:   0 0 2px rgb(69, 150, 130);
+}
+.app h1{
+    font-weight: 600;
+    font-size: 25px;
+    color: #03345c;
+    border-bottom: 2.78px solid #333;
+    padding-bottom: 30px;
+}
+.app h1:hover{
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-bottom: none;
+    color: #bd0c73;
+    border-bottom: 2.78px solid #bd0c73;
+}
+.quiz{
+    padding: 20px 0 ;
+}
+.quiz h2{
+    font-size: 18px;
+    color:#001e4d ;
+    font-weight: 600;
+}
+.quiz h2:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-bottom: none;
+    color: #bd0c73;
+}
+.btn{
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 45%;
+    /* border: 1px solid #222; */
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    cursor: pointer;
+    display: inline-flex;
+    flex-wrap: wrap; 
+    border-radius: 20px;
+    box-shadow:  inset 0 0 2px rgb(23, 51, 44);
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    /* background-color: #bd0c73ad; */
+    /* background: rgba(0, 0, 0, 0.616); */
+    background-color: #bd0c73;
+    color: white;
+    font-size: 14px;  
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #001e4d;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+#next-btn:hover{
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding-bottom: none;
+    background-color: #bd0c73;
+}
+.correct{
+    background: rgb(87, 231, 119);
+}
+.incorrect{
+    background: rgb(245, 97, 116);
+}
+
+
