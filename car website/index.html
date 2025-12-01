@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autovibe whole car showroom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <nav class="nav-bar">
+  <!-- Logo LEFT -->
+  <div class="logo-img">
+    <img src="data/logo_2-removebg-preview.png" alt="logo">
+  </div>
+
+  <!-- Hamburger icon (for mobile) -->
+  <div class="menu-toggle md:hidden cursor-pointer" id="menuToggle">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+       viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+  </div>
+
+  <!-- Center and Right: use one wrapper with flex-grow -->
+  <div class="nav-center-right-wrapper flex flex-1 items-center justify-between">
+    <!-- NAV LINKS CENTER -->
+    <div class="nav-menu1">
+      <a href="#home" class="active">home</a>
+      <a href="#about">about</a>
+      <a href="#collection">collection</a>
+      <a href="#contact us">contact us</a>
+    </div>
+
+    <!-- RIGHT SIDE: Search + Buttons -->
+    <div class="nav-btn">
+      <div class="group">
+        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
+    </svg>
+        </svg>
+        <input placeholder="Search" type="search" class="input">
+      </div>
+      <button class="btn"><a href="login.html">login</a></button>
+      <button class="btn"><a href="signup.html">signup</a></button>
+    </div>
+  </div>
+</nav>
+
+
+    <section class="home" id="home">
+        <div class="left-content">
+            <h3>
+                HI Everyone
+                 <span>👋</span> 
+            </h3>
+            <div class="welcome-msg">
+                <h5 >welcome to  </h5>
+            <h2>AUTO VIBE</h2>
+            </div>
+            <p>a complete car showroom</p>
+            <button class="btn"><a href="#collection" style="text-decoration: none;">See collection</a>
+            </button>
+    <ul class="wrapper">
+        <li class="icon facebook">
+        <span class="tooltip">Facebook</span>
+        <svg
+          viewBox="0 0 320 512"
+          height="1.2em"
+          fill="currentColor"
+             xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+          ></path>
+        </svg>
+        </li>
+  <li class="icon twitter">
+    <span class="tooltip">Twitter</span>
+    <svg
+      height="1.8em"
+      fill="currentColor"
+      viewBox="0 0 48 48"
+      xmlns="http://www.w3.org/2000/svg"
+      class="twitter"
+    >
+      <path
+        d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"
+      ></path>
+    </svg>
+  </li>
+  <li class="icon instagram">
+    <span class="tooltip">Instagram</span>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="1.2em"
+      fill="currentColor"
+      class="bi bi-instagram"
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+      ></path>
+    </svg>
+  </li>
+</ul>
+
+        </div>
+        <div class="right-content">
+            <img src="data/Pure-Black-Car-Wallpaper-removebg-preview.png" class="h-[550px] w-[550px]" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h3>about us</h3>
+        <div class="text">
+        <h3>AUTOVIBE</h3>
+        <p>At autovibe, we specialize in buying and selling quality cars and genuine auto parts at competitive prices.
+Our mission is to connect car enthusiasts and everyday drivers with trusted vehicles and spare parts effortlessly.</p>
+        </div>
+    </section>
+    <section class="collection" id="collection">
+      <h1>Collection</h1>
+      <div class="premium-collection">
+        <div class="premium">
+          <img src="data/mercedes_1936_540k_95645_1280x720-removebg-preview.png" class="h-[500px] w-[500px] " alt="mercedes pic">
+          <div class="car-info">
+            <h3>mercedes-1936</h3>
+            <pre class="text-small"> Mercedes 260D, were pioneering in automotive innovation. 
+    🚗 First mass-produced diesel passenger car (260D)
+    ⚙️ Fuel-efficient and reliable diesel engine
+    🛠️ Advanced engineering for its time, 
+</pre>
+          </div> 
+      </div>
+        <h2>premium collection</h2>
+      </div>
+      <div class="top-5">
+      <h3>TOP FOUR</h3>
+  <div class="top-img">
+  
+    <div class="div1 box">
+      <div class="h-[180px]  flex items-center justify-center gap-9 ">
+        <p class="num w-10 -mr-20">1</p>
+        <div class="aspect-[9/16] overflow-hidden inline-block h-[200px] w-[300px] -ml-0">
+          <img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" class="w-full h-full object-cover block ml-6" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="div2 box">
+      <div class="h-[180px]  flex items-center justify-center gap-9 ">
+        <p class="num w-10 -mr-20">2</p>
+        <div class="aspect-[9/16] overflow-hidden inline-block h-[200px] w-[300px] -ml-0">
+          <img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" class="w-full h-full object-cover block ml-6" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="div3 box">
+      <div class="h-[180px]  flex items-center justify-center gap-9 ">
+        <p class="num w-10 -mr-20">3</p>
+        <div class="aspect-[9/16] overflow-hidden inline-block h-[200px] w-[300px] -ml-0">
+          <img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" class="w-full h-full object-cover block ml-6" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="div4 box">
+      <div class="h-[180px]  flex items-center justify-center gap-9 ">
+        <p class="num w-10 -mr-20">4</p>
+        <div class="aspect-[9/16] overflow-hidden inline-block h-[200px] w-[300px] -ml-0">
+          <img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" class="w-full h-full object-cover block ml-6" alt="">
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+<div class="regular flex flex-col align-center justify-center gap-[20px]">
+  <h3 class="text">Regular</h3>
+  <div class="boxes flex flex-wrap gap-[15px] ml-[50px] justify-center align-ceter">
+  <!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by SSpisso --> 
+<div class="container">
+  <div class="card cart">
+    <label class="title">CHECKOUT</label>
+    <div class="steps">
+      <div class="step">
+        <div>
+          <span>SHIPPING</span>
+          <p>221B Baker Street, W1U 8ED</p>
+          <p>London, United Kingdom</p>
+        </div>
+        <hr>
+        <div>
+          <span>PAYMENT METHOD</span>
+          <p>Visa</p>
+          <p>**** **** **** 4243</p>
+        </div>
+        <hr>
+        <div class="promo">
+          <span>HAVE A PROMO CODE?</span>
+          <form class="form">
+            <input type="text" placeholder="Enter a Promo Code" class="input_field">
+            <button>Apply</button>
+          </form>
+        </div>
+        <hr>
+        <div class="payments">
+          <span>PAYMENT</span>
+          <div class="details">
+            <span>Subtotal:</span>
+            <span>$240.00</span>
+            <span>Shipping:</span>
+            <span>$10.00</span>
+            <span>Tax:</span>
+            <span>$30.40</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card checkout">
+    <div class="footer">
+      <label class="price">$280.40</label>
+      <button class="checkout-btn">Checkout</button>
+    </div>
+  </div>
+</div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+<!-- From Uiverse.io by alexruix --> 
+  <div class="card">
+  <div class="card-img"><img src="data/RIMAC_NEVERA_FRONT_34_close-1-e1707921384948-removebg-preview.png" alt=""></div>
+  <div class="card-info">
+    <p class="text-title">Product title </p>
+    <p class="text-body">Product description and details</p>
+  </div>
+  <div class="card-footer">
+  <span class="text-title">$499.49</span>
+  <div class="card-button">
+    <svg class="svg-icon" viewBox="0 0 20 20">
+      <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+      <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+      <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+    </svg>
+  </div>
+</div></div>
+
+
+
+</section>
+<section class="contact us mt-8" id="contact us" >
+ <div class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0">
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="mt-8 overflow-hidden">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 ">
+                        <h1 class="text-2xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
+                            Get in touch
+                        </h1>
+                        <p class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2">
+                            Fill in the form to start a conversation
+                        </p>
+
+                        <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                                punajb,pakistan
+                                64350
+                            </div>
+                        </div>
+
+                        <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                                <a href="tel:+923018087193" style="text-decoration:  none;">+92 301 8087193</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                                <a href="mailto:shafqatahmad676@gmail.com" style="text-decoration:  none;">
+                                shafqatahmad676@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="p-6 flex flex-col justify-center" class="contact-form"
+                    action="https://formsubmit.co/shafqatahmad676@gmail.com"
+                    method="POST"
+                    encType="text/plain">
+                        <div class="flex flex-col">
+                            <label for="name" class="hidden">Full Name</label>
+                            <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
+                        </div>
+
+                        <div class="flex flex-col mt-2">
+                            <label for="email" class="hidden">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3  bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
+                        </div>
+
+                        <div class="flex flex-col mt-2">
+                            <label for="text" class="hidden">message</label>
+                            <input type="text" name="text" id="text" placeholder="Message" class="w-100 h-[100px] mt-2 py-3 px-3  bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
+                        </div>
+
+                        <button type="submit" class="btn mt-4 w-40 text-md">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <div class="flex flex-col mx-3 bg-white rounded-lg ">
+           <div class="w-full">
+    <div class="container flex flex-col mx-auto">
+      <div class="flex flex-col items-center w-full my-20">
+        <div class="flex flex-col items-center gap-6 mb-8">
+          <div class="flex flex-wrap items-center justify-center gap-5 lg:gap-12 gap-y-3 lg:flex-nowrap text-dark-grey-900">
+            <a href="#home" class="text-gray-600 hover:text-gray-900">Home</a>
+            <a href="#about" class="text-gray-600 hover:text-gray-900">About</a>
+            <a href="#collection" class="text-gray-600 hover:text-gray-900">Collection</a>
+            <a href="#contact us" class="text-gray-600 hover:text-gray-900">Contact us</a>
+            <a href="javascript:void(0)" class="text-gray-600 hover:text-gray-900">Help</a>
+            <a href="javascript:void(0)" class="text-gray-600 hover:text-gray-900">Terms</a>
+          </div>
+          <div class="flex items-center gap-8">
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z" fill="currentColor"/>
+                <mask id="mask0_3320_6483" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="3" width="10" height="18">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_3320_6483)">
+                </g>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.8182 6.14597C21.1356 6.44842 20.4032 6.65355 19.6337 6.74512C20.4194 6.27461 21.0208 5.5283 21.3059 4.64176C20.5689 5.07748 19.7553 5.39388 18.8885 5.56539C18.1943 4.82488 17.207 4.36364 16.1118 4.36364C14.0108 4.36364 12.3072 6.06718 12.3072 8.16706C12.3072 8.46488 12.3408 8.75576 12.4058 9.03391C9.24436 8.87512 6.44106 7.36048 4.56485 5.05894C4.23688 5.61985 4.0503 6.27342 4.0503 6.97109C4.0503 8.29106 4.72246 9.45573 5.74227 10.1371C5.11879 10.1163 4.53239 9.94476 4.01903 9.65967V9.70718C4.01903 11.5498 5.33088 13.0876 7.07033 13.4376C6.75164 13.5234 6.41558 13.5709 6.06791 13.5709C5.82224 13.5709 5.58467 13.5465 5.35173 13.5002C5.83612 15.0125 7.2407 16.1123 8.90485 16.1424C7.60343 17.1622 5.96246 17.7683 4.18012 17.7683C3.87303 17.7683 3.57055 17.7498 3.27273 17.7162C4.95658 18.7974 6.95564 19.4278 9.10418 19.4278C16.1026 19.4278 19.9281 13.6312 19.9281 8.60397L19.9153 8.11145C20.6628 7.57833 21.3094 6.90851 21.8182 6.14597Z" fill="currentColor"/>
+                <mask id="mask0_3320_6484" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="3" y="4" width="19" height="16">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.8182 6.14597C21.1356 6.44842 20.4032 6.65355 19.6337 6.74512C20.4194 6.27461 21.0208 5.5283 21.3059 4.64176C20.5689 5.07748 19.7553 5.39388 18.8885 5.56539C18.1943 4.82488 17.207 4.36364 16.1118 4.36364C14.0108 4.36364 12.3072 6.06718 12.3072 8.16706C12.3072 8.46488 12.3408 8.75576 12.4058 9.03391C9.24436 8.87512 6.44106 7.36048 4.56485 5.05894C4.23688 5.61985 4.0503 6.27342 4.0503 6.97109C4.0503 8.29106 4.72246 9.45573 5.74227 10.1371C5.11879 10.1163 4.53239 9.94476 4.01903 9.65967V9.70718C4.01903 11.5498 5.33088 13.0876 7.07033 13.4376C6.75164 13.5234 6.41558 13.5709 6.06791 13.5709C5.82224 13.5709 5.58467 13.5465 5.35173 13.5002C5.83612 15.0125 7.2407 16.1123 8.90485 16.1424C7.60343 17.1622 5.96246 17.7683 4.18012 17.7683C3.87303 17.7683 3.57055 17.7498 3.27273 17.7162C4.95658 18.7974 6.95564 19.4278 9.10418 19.4278C16.1026 19.4278 19.9281 13.6312 19.9281 8.60397L19.9153 8.11145C20.6628 7.57833 21.3094 6.90851 21.8182 6.14597Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_3320_6484)">
+                </g>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 3C7.0275 3 3 7.13211 3 12.2284C3 16.3065 5.5785 19.7648 9.15375 20.9841C9.60375 21.0709 9.76875 20.7853 9.76875 20.5403C9.76875 20.3212 9.76125 19.7405 9.7575 18.9712C7.254 19.5277 6.726 17.7332 6.726 17.7332C6.3165 16.6681 5.72475 16.3832 5.72475 16.3832C4.9095 15.8111 5.78775 15.8229 5.78775 15.8229C6.6915 15.887 7.16625 16.7737 7.16625 16.7737C7.96875 18.1847 9.273 17.777 9.7875 17.5414C9.8685 16.9443 10.1003 16.5381 10.3575 16.3073C8.35875 16.0764 6.258 15.2829 6.258 11.7471C6.258 10.7399 6.60675 9.91659 7.18425 9.27095C7.083 9.03774 6.77925 8.0994 7.263 6.82846C7.263 6.82846 8.01675 6.58116 9.738 7.77462C10.458 7.56958 11.223 7.46785 11.988 7.46315C12.753 7.46785 13.518 7.56958 14.238 7.77462C15.948 6.58116 16.7017 6.82846 16.7017 6.82846C17.1855 8.0994 16.8818 9.03774 16.7917 9.27095C17.3655 9.91659 17.7142 10.7399 17.7142 11.7471C17.7142 15.2923 15.6105 16.0725 13.608 16.2995C13.923 16.5765 14.2155 17.1423 14.2155 18.0071C14.2155 19.242 14.2043 20.2344 14.2043 20.5341C14.2043 20.7759 14.3617 21.0647 14.823 20.9723C18.4237 19.7609 21 16.3002 21 12.2284C21 7.13211 16.9703 3 12 3Z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path d="M16.2 0H1.8C0.81 0 0 0.81 0 1.8V16.2C0 17.19 0.81 18 1.8 18H16.2C17.19 18 18 17.19 18 16.2V1.8C18 0.81 17.19 0 16.2 0ZM5.4 15.3H2.7V7.2H5.4V15.3ZM4.05 5.67C3.15 5.67 2.43 4.95 2.43 4.05C2.43 3.15 3.15 2.43 4.05 2.43C4.95 2.43 5.67 3.15 5.67 4.05C5.67 4.95 4.95 5.67 4.05 5.67ZM15.3 15.3H12.6V10.53C12.6 9.81004 11.97 9.18 11.25 9.18C10.53 9.18 9.9 9.81004 9.9 10.53V15.3H7.2V7.2H9.9V8.28C10.35 7.56 11.34 7.02 12.15 7.02C13.86 7.02 15.3 8.46 15.3 10.17V15.3Z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" class="text-grey-700 hover:text-grey-900">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.60063 2.18182H16.3991C19.3873 2.18182 21.8183 4.61281 21.8182 7.60074V16.3993C21.8182 19.3872 19.3873 21.8182 16.3991 21.8182H7.60063C4.6127 21.8182 2.18182 19.3873 2.18182 16.3993V7.60074C2.18182 4.61281 4.6127 2.18182 7.60063 2.18182ZM16.3993 20.0759C18.4266 20.0759 20.0761 18.4266 20.0761 16.3993H20.0759V7.60074C20.0759 5.57348 18.4265 3.92405 16.3991 3.92405H7.60063C5.57336 3.92405 3.92405 5.57348 3.92405 7.60074V16.3993C3.92405 18.4266 5.57336 20.0761 7.60063 20.0759H16.3993ZM6.85714 12.0001C6.85714 9.16424 9.16418 6.85714 12 6.85714C14.8358 6.85714 17.1429 9.16424 17.1429 12.0001C17.1429 14.8359 14.8358 17.1429 12 17.1429C9.16418 17.1429 6.85714 14.8359 6.85714 12.0001ZM8.62798 12C8.62798 13.8593 10.1407 15.3719 12 15.3719C13.8593 15.3719 15.372 13.8593 15.372 12C15.372 10.1406 13.8594 8.6279 12 8.6279C10.1406 8.6279 8.62798 10.1406 8.62798 12Z" fill="currentColor"/>
+                <mask id="mask0_3320_6487" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.60063 2.18182H16.3991C19.3873 2.18182 21.8183 4.61281 21.8182 7.60074V16.3993C21.8182 19.3872 19.3873 21.8182 16.3991 21.8182H7.60063C4.6127 21.8182 2.18182 19.3873 2.18182 16.3993V7.60074C2.18182 4.61281 4.6127 2.18182 7.60063 2.18182ZM16.3993 20.0759C18.4266 20.0759 20.0761 18.4266 20.0761 16.3993H20.0759V7.60074C20.0759 5.57348 18.4265 3.92405 16.3991 3.92405H7.60063C5.57336 3.92405 3.92405 5.57348 3.92405 7.60074V16.3993C3.92405 18.4266 5.57336 20.0761 7.60063 20.0759H16.3993ZM6.85714 12.0001C6.85714 9.16424 9.16418 6.85714 12 6.85714C14.8358 6.85714 17.1429 9.16424 17.1429 12.0001C17.1429 14.8359 14.8358 17.1429 12 17.1429C9.16418 17.1429 6.85714 14.8359 6.85714 12.0001ZM8.62798 12C8.62798 13.8593 10.1407 15.3719 12 15.3719C13.8593 15.3719 15.372 13.8593 15.372 12C15.372 10.1406 13.8594 8.6279 12 8.6279C10.1406 8.6279 8.62798 10.1406 8.62798 12Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_3320_6487)">
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <p class="text-base font-normal leading-7 text-center text-grey-700 ">
+            &copy; 2025 Uiverse. All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 my-5">
+          
+        </div>
+
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</html>
